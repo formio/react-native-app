@@ -3,20 +3,22 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "build": "webpack --config webpack.config.js --progress --colors",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
   "dependencies": {
-    "formiojs": "3.0.0-rc.20",
     "react": "16.4.1",
     "react-native": "0.56.0",
-    "whatwg-fetch": "^2.0.4"
+    "react-native-formio": "https://github.com/realbisoye/react-native-formio#4_Convert_textfield_component_render_method"
   },
   "devDependencies": {
     "babel-jest": "23.4.0",
     "babel-preset-react-native": "^5",
     "jest": "23.4.0",
-    "react-test-renderer": "16.4.1"
+    "react-test-renderer": "16.4.1",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.0.8"
   },
   "jest": {
     "preset": "react-native"
