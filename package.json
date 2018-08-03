@@ -10,7 +10,7 @@
   "dependencies": {
     "react": "16.4.1",
     "react-native": "0.56.0",
-    "react-native-formio": "https://github.com/realbisoye/react-native-formio#4_Convert_textfield_component_render_method"
+    "react-native-formio": "https://github.com/realbisoye/react-native-formio#convert_radio_columns_panel_and_fieldset"
   },
   "devDependencies": {
     "babel-jest": "23.4.0",
